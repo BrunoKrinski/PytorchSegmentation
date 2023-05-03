@@ -1,0 +1,14 @@
+dataset:
+  labels: C:/Users/Bakrinski/Documents/Projects/datasets/segmentation/covid19china/labels.txt
+  test: C:/Users/Bakrinski/Documents/Projects/datasets/segmentation/covid19china/valid/test_ids.txt
+general:
+  gpu: 0
+  mode: eval
+  num_workers: 4
+  path: C:/Users/Bakrinski/Documents/Projects/PytorchSegmentation/RUNS/GridDistortion/covid19china/unetplusplus/timm-regnetx_002/train_config
+model:
+  batch_size: 2
+  encoder: timm-regnetx_002
+  height: 512
+  type: last
+  width: 512
